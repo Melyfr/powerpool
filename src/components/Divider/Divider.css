@@ -1,0 +1,38 @@
+.divider {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 30px 0;
+}
+
+.divider__line {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.divider__item {
+    display: block;
+    text-transform: uppercase;
+    font-size: 28px;
+    word-spacing: 26px;
+    white-space: nowrap;
+    animation: line 20s infinite linear;
+}
+
+.divider__item::after {
+    content: 'PowerPool * Is * About * PowerPool * Invented * PowerPool * Is PowerPool * Is * About * PowerPool * Invented * PowerPool * Is';
+}
+
+.divider__item--reverse {
+    animation-direction: reverse;
+    margin-top: 12px;
+}
+
+@keyframes line{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+}

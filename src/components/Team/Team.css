@@ -1,0 +1,101 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 40px;
+
+    overflow-x: hidden;
+}
+
+.team__desc {
+    max-width: 400px;
+    text-align: left;
+    margin-top: 20px;
+    padding-right: 60px;
+}
+
+.team__members {
+    margin-top: 20px;
+}
+
+.team__line {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.team__line:nth-child(2) {
+    margin-top: 30px;
+
+    transform: translateX(400px);
+}
+
+.team__member {
+    padding: 30px 40px;
+
+    border: 1px solid var(--neutral-color);
+    border-radius: 18px;
+}
+
+.member__info {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.member__name {
+    margin-bottom: 10px;
+}
+
+.member__info::before {
+    content: '';
+    position: absolute;
+    left: -70px;
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    background-color: #fff;
+    background-position: 50% 50%;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.member__desc {
+    max-width: 380px;
+}
+
+.team__line:first-child .team__member:nth-child(1) .member__info::before {
+    background-image: url(../../assets/gordon.png);
+}
+
+.team__line:first-child .team__member:nth-child(2) .member__info::before {
+    background-image: url(../../assets/vasily.png);
+}
+
+.team__line:first-child .team__member:nth-child(3) .member__info::before {
+    background-image: url(../../assets/leeroy.png);
+}
+
+.team__line:last-child .team__member:nth-child(1) .member__info::before {
+    background-image: url(../../assets/august.png);
+}
+
+.team__line:last-child .team__member:nth-child(2) .member__info::before {
+    background-image: url(../../assets/mark.png);
+}
+
+.team__line:last-child .team__member:nth-child(3) .member__info::before {
+    background-image: url(../../assets/grigory.png);
+}
+
+@media (max-width: 1024px) {
+    .team {
+        padding: 0px 30px;
+    }
+
+    .team__line {
+        flex-direction: column;
+    }
+}

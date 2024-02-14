@@ -1,0 +1,41 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    padding: 0 40px;
+    margin: 26px auto;
+}
+
+.navigation__list {
+    display: flex;
+    gap: 24px;
+}
+
+.navigation__item {
+    color: var(--neutral-color);
+}
+
+.navigation__item:hover {
+    color: var(--accent-color);
+}
+
+.navigation__btn:hover {
+    color: var(--accent-color);
+    background-color: transparent;
+}
+
+@media (max-width: 1024px) {
+    .navigation {
+        display: block;
+        text-align: center;
+    }
+
+    .navigation__list {
+        display: none;
+    }
+    
+    .btn.navigation__btn {
+        display: none;
+    }
+}
