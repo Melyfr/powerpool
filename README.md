@@ -20,5 +20,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 npm i
 ```
 ```
-npm run start
+npm run dev
 ```
