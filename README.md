@@ -11,7 +11,7 @@
 
 ### О проекте:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Лэндинг для компании, занимающейся разработкой и внедрением децентрализованной сети для гарантированного автоматического выполнения транзакций. Интерфейс лэндинга адаптирован для различных размеров экрана.
 #
 
 ### Быстрый запуск:
